@@ -1,0 +1,2 @@
+#!/bin/bash
+/home/ecs-user/Steam/steamapps/common/Left\ 4\ Dead\ 2\ Dedicated\ Server/srcds_run -game left4dead2 -debug -insecure +port 14514 +map c2m1_highway +sv_lan 0 -tickrate 60 +sv_consistency 0 -nomaster +sb_all_bot_game 1 +allow_all_bot_survivor_team 1 +z_survivor_respawn_health 100 +grenadelauncher_damage 600 +grenadelauncher_ff_scale 0.04 +grenadelauncher_ff_scale_self 0.04 +grenadelauncher_radius_kill 360 +grenadelauncher_velocity 1600 +survivor_revive_health 40
